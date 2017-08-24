@@ -1,0 +1,305 @@
+<test>
+	<Forms>
+		<Form>
+		      <Id>63585186-FA65-3FDF-9E17-CEB617974FC4</Id>
+		      <RatebookId>4A824B94-53C9-3D77-BF39-853B9F1AAC1F</RatebookId>
+		      <TableId>91D8D019-8ECF-31B8-ABB1-CACE6B4A33C1</TableId>
+		      <TableName>BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage</TableName>
+		      <Type>Form</Type>
+		      <Sequence>1955</Sequence>
+		      <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+		      <Name>Payment Card Industry (PCI) - Provide Coverage For Defense Expenses</Name>
+		      <ParentName>Policy</ParentName>
+		      <HidePremium>0</HidePremium>
+		      <Condition>count(BOPInformationSecurityProtectionEndorsement) &gt; 0 and BOPInformationSecurityProtectionEndorsement/BOPInformationSecurityProtectionEndorsementDetail[(CoverageTierSelect='Tier 1 and 2' or CoverageTierSelect='Tier 1, 2 and 3')]</Condition>
+		      <Number>BP 15 09 03 15</Number>
+		      <MinOccurs>0</MinOccurs>
+		      <MaxOccurs>1</MaxOccurs>
+		      <BureauRuleNumber />
+		      <Comment />
+			  <Field>
+				<Id>5BC978D4-BB2C-3762-B463-847C68EC587A</Id>
+				<FormId>CBD50F77-FBD5-3006-9002-DA93658C3C3F</FormId>
+				<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+				<ColumnId>D273122D-0548-3BA1-937D-33785E1FB268</ColumnId>
+				<ColumnName>PolicyTermPremium</ColumnName>
+				<DomainTableId />
+				<Sequence>100</Sequence>
+				<Type>HIDDEN</Type>
+				<Label />
+				<QuoteReadOnly>0</QuoteReadOnly>
+				<QuoteRequired>0</QuoteRequired>
+				<QuoteDisplay>0</QuoteDisplay>
+				<QuoteDisabled>0</QuoteDisabled>
+				<PolicyReadOnly>0</PolicyReadOnly>
+				<PolicyRequired>0</PolicyRequired>
+				<PolicyDisplay>0</PolicyDisplay>
+				<PolicyDisabled>0</PolicyDisabled>
+				<Default />
+				<Minimum />
+				<Maximum />
+				<Help />
+				<HelpText />
+				<BureauRuleNumber />
+				<Condition />
+				<RequiredCondition />
+			</Field>
+			<Forms>
+				<Form>
+		          <Id>665620C1-7E61-36DE-B1DF-CE11B9231420</Id>
+		          <RatebookId>4A824B94-53C9-3D77-BF39-853B9F1AAC1F</RatebookId>
+		          <TableId>EAAFDE19-3E37-337E-A716-9C966DADB0C6</TableId>
+		          <TableName>BOPChangesDetail</TableName>
+		          <Type>Summary</Type>
+		          <Sequence>1726</Sequence>
+		          <AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+		          <Name>South Carolina Changes Summary</Name>
+		          <ParentName>South Carolina Changes</ParentName>
+		          <HidePremium>0</HidePremium>
+		          <Condition />
+		          <Number />
+		          <MinOccurs>1</MinOccurs>
+		          <MaxOccurs>99</MaxOccurs>
+		          <BureauRuleNumber />
+		          <Comment>Used for South Carolina Changes BP 01 21</Comment>
+					<Field>
+						<Id>FFA1845B-0E67-31DF-A6EC-83A45C8BCEF6</Id>
+						<FormId>665620C1-7E61-36DE-B1DF-CE11B9231420</FormId>
+						<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+						<ColumnId>16DC64BA-6D8A-333A-83F8-2A6875087A3A</ColumnId>
+						<ColumnName>PremisesNumber</ColumnName>
+						<DomainTableId />
+						<Sequence>100</Sequence>
+						<Type>TEXT</Type>
+						<Label>Premises Number</Label>
+						<QuoteReadOnly>1</QuoteReadOnly>
+						<QuoteRequired>0</QuoteRequired>
+						<QuoteDisplay>1</QuoteDisplay>
+						<QuoteDisabled>0</QuoteDisabled>
+						<PolicyReadOnly>1</PolicyReadOnly>
+						<PolicyRequired>0</PolicyRequired>
+						<PolicyDisplay>1</PolicyDisplay>
+						<PolicyDisabled>0</PolicyDisabled>
+						<Default />
+						<Minimum />
+						<Maximum />
+						<Help />
+						<HelpText />
+						<BureauRuleNumber />
+						<Condition />
+						<RequiredCondition />
+					</Field>
+					<Field>
+						<Id>EBD8EC03-CF0A-3C8C-919B-B8A0AB00D9E8</Id>
+						<FormId>665620C1-7E61-36DE-B1DF-CE11B9231420</FormId>
+						<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+						<ColumnId>F1B6A384-A022-38C7-B89C-34FDBE601543</ColumnId>
+						<ColumnName>BuildingNumber</ColumnName>
+						<DomainTableId />
+						<Sequence>200</Sequence>
+						<Type>TEXT</Type>
+						<Label>Building Number</Label>
+						<QuoteReadOnly>1</QuoteReadOnly>
+						<QuoteRequired>0</QuoteRequired>
+						<QuoteDisplay>1</QuoteDisplay>
+						<QuoteDisabled>0</QuoteDisabled>
+						<PolicyReadOnly>1</PolicyReadOnly>
+						<PolicyRequired>0</PolicyRequired>
+						<PolicyDisplay>1</PolicyDisplay>
+						<PolicyDisabled>0</PolicyDisabled>
+						<Default />
+						<Minimum />
+						<Maximum />
+						<Help />
+						<HelpText />
+						<BureauRuleNumber />
+						<Condition />
+						<RequiredCondition />
+					</Field>
+					<Field>
+						<Id>0592CB07-356C-37AF-9784-E90C37CB1125</Id>
+						<FormId>665620C1-7E61-36DE-B1DF-CE11B9231420</FormId>
+						<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+						<ColumnId>34929C28-8489-3F86-8D59-7E2B69C7A9A4</ColumnId>
+						<ColumnName>AgreedValueOfBuilding</ColumnName>
+						<DomainTableId />
+						<Sequence>300</Sequence>
+						<Type>TEXT</Type>
+						<Label>Agreed Value Of Building</Label>
+						<QuoteReadOnly>1</QuoteReadOnly>
+						<QuoteRequired>0</QuoteRequired>
+						<QuoteDisplay>1</QuoteDisplay>
+						<QuoteDisabled>0</QuoteDisabled>
+						<PolicyReadOnly>1</PolicyReadOnly>
+						<PolicyRequired>0</PolicyRequired>
+						<PolicyDisplay>1</PolicyDisplay>
+						<PolicyDisabled>0</PolicyDisabled>
+						<Default />
+						<Minimum />
+						<Maximum />
+						<Help />
+						<HelpText />
+						<BureauRuleNumber />
+						<Condition />
+						<RequiredCondition />
+					</Field>
+					<Field>
+						<Id>B4F10D71-0E87-3220-9471-23BF393EF082</Id>
+						<FormId>665620C1-7E61-36DE-B1DF-CE11B9231420</FormId>
+						<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+						<ColumnId>A32F4D27-56F1-357E-870B-EB6FE5C2F4BE</ColumnId>
+						<ColumnName>TotalAmountOfInsuranceToBeCarried</ColumnName>
+						<DomainTableId />
+						<Sequence>400</Sequence>
+						<Type>TEXT</Type>
+						<Label>Total Amount Of Insurance To Be Carried</Label>
+						<QuoteReadOnly>1</QuoteReadOnly>
+						<QuoteRequired>0</QuoteRequired>
+						<QuoteDisplay>1</QuoteDisplay>
+						<QuoteDisabled>0</QuoteDisabled>
+						<PolicyReadOnly>1</PolicyReadOnly>
+						<PolicyRequired>0</PolicyRequired>
+						<PolicyDisplay>1</PolicyDisplay>
+						<PolicyDisabled>0</PolicyDisabled>
+						<Default />
+						<Minimum />
+						<Maximum />
+						<Help />
+						<HelpText />
+						<BureauRuleNumber />
+						<Condition />
+						<RequiredCondition />
+					</Field>
+					<Forms>
+						<Form>
+							<Id>9694856B-0EB8-32F8-9D7E-202265F75D97</Id>
+							<RatebookId>4A824B94-53C9-3D77-BF39-853B9F1AAC1F</RatebookId>
+							<TableId>EAAFDE19-3E37-337E-A716-9C966DADB0C6</TableId>
+							<TableName>BOPChangesDetail</TableName>
+							<Type>Detail</Type>
+							<Sequence>1727</Sequence>
+							<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+							<Name>South Carolina Changes Detail</Name>
+							<ParentName>South Carolina Changes Summary</ParentName>
+							<HidePremium>0</HidePremium>
+							<Condition />
+							<Number />
+							<MinOccurs>0</MinOccurs>
+							<MaxOccurs>1</MaxOccurs>
+							<BureauRuleNumber />
+							<Comment>Used for South Carolina Changes BP 01 21</Comment>
+							<Field>
+								<Id>C4E032C4-9670-3634-BE54-7DC6C79AEAE3</Id>
+								<FormId>9694856B-0EB8-32F8-9D7E-202265F75D97</FormId>
+								<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+								<ColumnId>16DC64BA-6D8A-333A-83F8-2A6875087A3A</ColumnId>
+								<ColumnName>PremisesNumber</ColumnName>
+								<DomainTableId />
+								<Sequence>100</Sequence>
+								<Type>TEXT</Type>
+								<Label>Premises Number</Label>
+								<QuoteReadOnly>0</QuoteReadOnly>
+								<QuoteRequired>1</QuoteRequired>
+								<QuoteDisplay>1</QuoteDisplay>
+								<QuoteDisabled>0</QuoteDisabled>
+								<PolicyReadOnly>0</PolicyReadOnly>
+								<PolicyRequired>1</PolicyRequired>
+								<PolicyDisplay>1</PolicyDisplay>
+								<PolicyDisabled>0</PolicyDisabled>
+								<Default />
+								<Minimum />
+								<Maximum />
+								<Help />
+								<HelpText />
+								<BureauRuleNumber />
+								<Condition />
+								<RequiredCondition />
+							</Field>
+							<Field>
+								<Id>81D0D78D-6CD7-3001-86B3-549692DDB9CB</Id>
+								<FormId>9694856B-0EB8-32F8-9D7E-202265F75D97</FormId>
+								<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+								<ColumnId>F1B6A384-A022-38C7-B89C-34FDBE601543</ColumnId>
+								<ColumnName>BuildingNumber</ColumnName>
+								<DomainTableId />
+								<Sequence>200</Sequence>
+								<Type>TEXT</Type>
+								<Label>Building Number</Label>
+								<QuoteReadOnly>0</QuoteReadOnly>
+								<QuoteRequired>1</QuoteRequired>
+								<QuoteDisplay>1</QuoteDisplay>
+								<QuoteDisabled>0</QuoteDisabled>
+								<PolicyReadOnly>0</PolicyReadOnly>
+								<PolicyRequired>1</PolicyRequired>
+								<PolicyDisplay>1</PolicyDisplay>
+								<PolicyDisabled>0</PolicyDisabled>
+								<Default />
+								<Minimum />
+								<Maximum />
+								<Help />
+								<HelpText />
+								<BureauRuleNumber />
+								<Condition />
+								<RequiredCondition />
+							</Field>
+							<Field>
+								<Id>FA15883B-8669-3B51-87C0-70FC1ABE1CFD</Id>
+								<FormId>9694856B-0EB8-32F8-9D7E-202265F75D97</FormId>
+								<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+								<ColumnId>34929C28-8489-3F86-8D59-7E2B69C7A9A4</ColumnId>
+								<ColumnName>AgreedValueOfBuilding</ColumnName>
+								<DomainTableId />
+								<Sequence>300</Sequence>
+								<Type>TEXT</Type>
+								<Label>Agreed Value Of Building</Label>
+								<QuoteReadOnly>0</QuoteReadOnly>
+								<QuoteRequired>1</QuoteRequired>
+								<QuoteDisplay>1</QuoteDisplay>
+								<QuoteDisabled>0</QuoteDisabled>
+								<PolicyReadOnly>0</PolicyReadOnly>
+								<PolicyRequired>1</PolicyRequired>
+								<PolicyDisplay>1</PolicyDisplay>
+								<PolicyDisabled>0</PolicyDisabled>
+								<Default />
+								<Minimum />
+								<Maximum />
+								<Help />
+								<HelpText />
+								<BureauRuleNumber />
+								<Condition />
+								<RequiredCondition />
+							</Field>
+							<Field>
+								<Id>C9595B95-D615-3DE2-B3D6-AC7FA4B14887</Id>
+								<FormId>9694856B-0EB8-32F8-9D7E-202265F75D97</FormId>
+								<AddChangeDeleteFlag>A</AddChangeDeleteFlag>
+								<ColumnId>A32F4D27-56F1-357E-870B-EB6FE5C2F4BE</ColumnId>
+								<ColumnName>TotalAmountOfInsuranceToBeCarried</ColumnName>
+								<DomainTableId />
+								<Sequence>400</Sequence>
+								<Type>TEXT</Type>
+								<Label>Total Amount Of Insurance To Be Carried</Label>
+								<QuoteReadOnly>0</QuoteReadOnly>
+								<QuoteRequired>1</QuoteRequired>
+								<QuoteDisplay>1</QuoteDisplay>
+								<QuoteDisabled>0</QuoteDisabled>
+								<PolicyReadOnly>0</PolicyReadOnly>
+								<PolicyRequired>1</PolicyRequired>
+								<PolicyDisplay>1</PolicyDisplay>
+								<PolicyDisabled>0</PolicyDisabled>
+								<Default />
+								<Minimum />
+								<Maximum />
+								<Help />
+								<HelpText />
+								<BureauRuleNumber />
+								<Condition />
+								<RequiredCondition />
+							</Field>
+						</Form>
+					</Forms>
+				</Form>
+			</Forms>
+		</Form>
+	</Forms>
+</test>
